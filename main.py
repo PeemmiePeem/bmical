@@ -2,12 +2,13 @@ import streamlit as st
 bg="""
 <style>
 .stApp { 
-    background-color: #FF0000;
-    color : #00FF00;
+    background-color: #00FFFF;
+    color : #FFFF00;
 }
 </style>
 """
-st.markdown(bg, unsafe_allow_html=True)
+#st.markdown(bg, unsafe_allow_html=True)
+st.html(bg)
 st.title("PEEM Bmi Calculator")
 st.markdown("---")
 Weight=st.number_input("นํ้าหนัก (Kg) :",value=20,min_value=10,max_value=200,step=1,)
