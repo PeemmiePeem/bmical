@@ -3,6 +3,8 @@ bg="""
 <style>
 .stApp { 
     background-image: url ("https://my.alfred.edu/zoom/_images/foster-lake.jpg");
+    background-color :#FFFFFF;
+    color : #000000;
 }
 </style>
 """
