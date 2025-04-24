@@ -7,8 +7,8 @@ bg="""
 }
 </style>
 """
-st.markdown(bg, unsafe_allow_html=True)
-#st.html(bg)
+#st.markdown(bg, unsafe_allow_html=True)
+st.html(bg)
 st.title("PEEM Bmi Calculator")
 st.markdown("---")
 Weight=st.number_input("นํ้าหนัก (Kg) :",value=20,min_value=10,max_value=200,step=1,)
