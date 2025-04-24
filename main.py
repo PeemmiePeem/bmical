@@ -3,7 +3,10 @@ st.title("Bmi Calculator")
 st.markdown("---")
 Weight=st.number_input("นํ้าหนัก (Kg) :",value=20,min_value=10,max_value=200,step=1,)
 Tall=st.number_input("ส่วนสูง (cm) :",value=100,min_value=1,max_value=200,step=1,)
-
+bg="""
+<style>
+.stApp {
+background-image: url ("https://wallpapercave.com/wp/wp9630625.jpg");
 Final=Weight/(Tall/100)**2
 
 if st.button("Calculate"):
