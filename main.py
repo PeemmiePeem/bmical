@@ -2,7 +2,6 @@ import streamlit as st
 bg="""
 <style>
 .stApp { 
-    background-image: url ("https://my.alfred.edu/zoom/_images/foster-lake.jpg");
     background-color: #00FF00
     color : #0000FF;
 }
