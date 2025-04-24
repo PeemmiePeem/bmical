@@ -2,16 +2,13 @@ import streamlit as st
 bg="""
 <style>
 .stApp { 
-background-image: url ("https://wallpapercave.com/wp/wp9630625.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
+    backgrounf-color: #FFFF00;
+    color : #000000;
 }
 </style>
 """
 st.html(bg)
-st.title("Bmi Calculator")
+st.title("PEEM Bmi Calculator")
 st.markdown("---")
 Weight=st.number_input("นํ้าหนัก (Kg) :",value=20,min_value=10,max_value=200,step=1,)
 Tall=st.number_input("ส่วนสูง (cm) :",value=100,min_value=1,max_value=200,step=1,)
