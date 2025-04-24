@@ -2,9 +2,11 @@ import streamlit as st
 bg="""
 <style>
 .stApp { 
-    background-image: url("https://my.alfred.edu/zoom/_images/foster-lake.jpg");
-    background-color: #00FFFF;
-    color : #FFFF00;
+    background-image: url ("https://wallpapercave.com/wp/wp9630625.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 </style>
 """
