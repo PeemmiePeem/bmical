@@ -7,7 +7,11 @@ Tall=st.number_input("ส่วนสูง (cm) :",value=100,min_value=1,max_va
 bg="""
 <style>
 .stApp { 
-background-image: url ("https://wallpapercave.com/wp/wp9630625.jpg")
+background-image: url ("https://wallpapercave.com/wp/wp9630625.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 </style>
 """
