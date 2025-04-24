@@ -7,6 +7,9 @@ bg="""
 <style>
 .stApp {
 background-image: url ("https://wallpapercave.com/wp/wp9630625.jpg");
+}
+</style>
+"""
 Final=Weight/(Tall/100)**2
 
 if st.button("Calculate"):
