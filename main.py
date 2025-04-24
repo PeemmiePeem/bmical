@@ -3,10 +3,7 @@ bg="""
 <style>
 .stApp { 
     background-image: url ("https://wallpapercave.com/wp/wp9630625.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
 }
 </style>
 """
