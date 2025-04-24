@@ -2,7 +2,7 @@ import streamlit as st
 bg="""
 <style>
 .stApp { 
-    background-color: #00FF00;
+    background-color: #FFFFFF;
     color : #000000;
 }
 </style>
