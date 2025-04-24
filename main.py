@@ -11,31 +11,31 @@ if st.button("Calculate"):
         st.info(f"{Final:.2f} น้อยกว่า 18.5 ")
         st.success(f"{Final} นํ้าหนักตํ่ากว่าเกณฑ์ ")
         st.warning(f"ภาวะแทรกซ้อน : เสี่ยงขาดสารอาหาร")
-        st.image("S__13484034_0.JPG")
+        st.image("S__13484034_0.jpg")
         
     elif Final >=18.5 and Final <=22.9:
         st.info (f"{Final:.2f} อยู่ระหว่าง 18.5 - 22.9")
         st.success(f"{Final} นํ้าหนักสมส่วน")
         st.warning(f"ภาวะแทรกซ้อน : โอกาสมีโรคแทรกซ้อนน้อย")
-        st.image("S__13484036_0.JPG")
+        st.image("S__13484036_0.jpg")
 
     elif Final >=23.0 and Final <=24.9:
         st.info(f"{Final:.2f} อยู่ระหว่าง 23.0 - 24.9")
         st.success(f"{Final} นํ้าหนักเกินมาตรฐาน")
         st.warning(f"ภาวะแทรกซ้อน : ภาวะนํ้าหนักเกินระยะเริ่มต้น")
-        st.image("S__13484037_0.JPG")
+        st.image("S__13484037_0.jpg")
 
     elif Final >=25.0 and Final <=29.9:
         st.error(f"{Final:.2f} อยู่ระหว่าง 25.0 - 29.9")
         st.success(f"{Final} นํ้าหนักอยู่ในเกณฑ์อ้วน ")
         st.warning(f"ภาวะแทรกซ้อน : ภาวะนํ็านหนักเกินมากระยะอ้วนเริ่มต้น")
-        st.image("S__13484038_0.JPG")
+        st.image("S__13484038_0.jpg")
 
     else:
         Final >=30.0;
         st.error(f"{Final:.2f} มากกว่า 30")
         st.success(f"{Final} นํ้าหนักอยู่ในเกณฑ์อ้วนมาก ")
         st.warning(f"ภาวะแทรกซ้อน : ภาวะนํ็าหนักเกินมากโรคอ้วน")
-        st.image("S__13484039_0.JPG")
+        st.image("S__13484039_0.jpg")
 
 
