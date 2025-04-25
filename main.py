@@ -8,7 +8,7 @@ bg="""
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #000000;
-    color : #99CCFF;
+    color : #b9b9e4;
 }
 </style>
 """
