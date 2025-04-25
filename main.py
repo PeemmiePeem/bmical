@@ -12,7 +12,7 @@ bg="""
 </style>
 """
 st.html(bg)
-st.title("Peem's Bmi Calculator")
+st.title("Peem's BMI Calculator")
 st.markdown("---")
 Sex=st.radio("เพศ",("ชาย","หญิง"),horizontal=True);
 Weight=st.number_input("นํ้าหนัก (Kg) :",value=20,min_value=10,max_value=200,step=1,)
