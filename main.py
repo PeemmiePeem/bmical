@@ -7,8 +7,8 @@ bg="""
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #191970;
-    color : #F8F8FF;
+    background-color: #F8F8FF;
+    color : #191970;
 }
 </style>
 """
