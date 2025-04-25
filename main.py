@@ -2,7 +2,7 @@ import streamlit as st
 bg="""
 <style>
 .stApp { 
-    backgroung-image: ("Background.png")
+    backgroung-image: url ("https://chatgpt.com/c/680b1f5b-838c-8004-90c2-4f9947e1f92c")
     background-color: #000000;
     color : #CCCCFF;
 }
