@@ -68,4 +68,6 @@ if st.button("Calculate"):
                 st.warning(f"ภาวะแทรกซ้อน : ภาวะนํ้าหนักเกินมากโรคอ้วน")
                 st.image("Woman_4.jpg")
 
+st.markdown("---")
+
 
