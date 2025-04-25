@@ -3,6 +3,10 @@ bg="""
 <style>
 .stApp { 
     backgroung-image: url ("https://chatgpt.com/c/680b1f5b-838c-8004-90c2-4f9947e1f92c")
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #000000;
     color : #CCCCFF;
 }
