@@ -7,7 +7,7 @@ bg="""
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #F8F8FF;
+    background-color: #333333;
     color : #191970;
 }
 </style>
