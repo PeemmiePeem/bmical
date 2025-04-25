@@ -21,6 +21,7 @@ if st.button("Calculate"):
         if Sex == "ชาย" and Final < 19:
             st.info(f"{Final:.2f} น้อยกว่า 19 ")
             st.success(f"{Final:.2f} นํ้าหนักตํ่ากว่าเกณฑ์ ")
+            st.warning(f"ภาวะแทรกซ้อน : เสี่ยงโรคขาดสารอาหาร")
             st.image("Man_1.jpg")
         
         elif Sex == "ชาย" and Final >=19.0 and Final <=24.9:
