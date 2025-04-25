@@ -2,7 +2,7 @@ import streamlit as st
 bg="""
 <style>
 .stApp { 
-    backgroung-image: url ("https://sdmntpreastus2.oaiusercontent.com/files/00000000-095c-61f6-b7f3-2de3715f638a/raw?se=2025-04-25T08%3A48%3A25Z&sp=r&sv=2024-08-04&sr=b&scid=2af5761f-4b29-5641-8ead-858360f70595&skoid=ac1d63ad-0c69-4017-8785-7a50eb04382c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-25T00%3A05%3A48Z&ske=2025-04-26T00%3A05%3A48Z&sks=b&skv=2024-08-04&sig=qWA/J0iuB8GM6Y3Lzw9wbvRZk8HO/ei08QS9/h7tZac%3D")
+    backgroung-image: url ("https://sdmntpreastus2.oaiusercontent.com/files/00000000-095c-61f6-b7f3-2de3715f638a/raw?se=2025-04-25T08%3A48%3A25Z&sp=r&sv=2024-08-04&sr=b&scid=2af5761f-4b29-5641-8ead-858360f70595&skoid=ac1d63ad-0c69-4017-8785-7a50eb04382c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-25T00%3A05%3A48Z&ske=2025-04-26T00%3A05%3A48Z&sks=b&skv=2024-08-04&sig=qWA/J0iuB8GM6Y3Lzw9wbvRZk8HO/ei08QS9/h7tZac%3D");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
