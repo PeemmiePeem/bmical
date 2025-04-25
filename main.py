@@ -3,7 +3,7 @@ bg="""
 <style>
 .stApp { 
     background-color: #000000;
-    color : #CCCCFF;
+    color : #E6E6FA;
 }
 </style>
 """
